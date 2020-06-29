@@ -144,3 +144,35 @@ ul.menu li button i {
     bottom: 1rem;
     left: 1rem;
 }
+/* End Tours */
+#clients {
+    height: 450px;
+}
+
+.client-title {
+    text-align: center;
+    padding: 30px;
+}
+.client-flex {
+    display: flex;
+}
+
+.client-flex-items {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    transition: .3s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.client-flex-items:hover {
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+}
+.client-flex-items img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.client-flex-items figcaption {
+    margin-top: 15px;
+}
