@@ -90,3 +90,57 @@ ul.menu li button i {
 .banner-title .banner-btn:hover {
     background: #333;
 }
+/* End Banner */
+
+#tours {
+    height: 400px;
+}
+.tours-title {
+    text-align: center;
+    padding: 30px;
+}
+.tours-flex {
+    display: flex;
+}
+
+.tours-flex-items {
+    width: 100%;
+    height: 200px;
+    margin: 0.5rem;
+    position: relative;
+    transition: .3s;
+    border-radius: 5px;
+}
+.tours-flex-items:hover {
+    transform: translateY(-10px);
+    box-shadow: 3px 10px 20px rgba(0,0,0,0.3);
+}
+.tours-flex-items img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.tours-flex-items h3 {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.tours-flex-items .price {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: #ff1784;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+.tours-flex-items .price:hover {
+    background: #333;
+}
+.tours-flex-items figcaption {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
