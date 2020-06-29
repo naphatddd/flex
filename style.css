@@ -176,3 +176,73 @@ ul.menu li button i {
 .client-flex-items figcaption {
     margin-top: 15px;
 }
+/* End Clients */
+footer {
+    height: 250px;
+    background: #3498db;
+    color: #fff;
+}
+
+.footer-flex {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-items {
+    padding: 30px;
+    width: 100%;
+}
+.footer-items ul {
+    list-style: none;
+}
+.footer-items ul li {
+    margin-top: 10px;
+}
+.footer-items ul li i {
+    color: #ff1784;
+    margin-right: 5px;
+}
+.footer-items ul, .footer-items p {
+    margin-top: 15px;
+}
+.footer-items .hh {
+    margin-top: 20px;
+}
+.footer-items-1 ul li {
+    display: inline;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+}
+
+.footer-items-1 ul .fab {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #fff;
+}
+.footer-items-1 ul .fab:hover {
+    opacity: 0.7;
+}
+.footer-items-1 ul .fa-facebook-f {
+    padding: 10px 15px;
+    background: #3B5998;
+    border-radius: 5px;
+}
+.footer-items-1 ul .fa-twitter {
+    padding: 10px;
+    background: #55ACEE;
+    border-radius: 5px;
+}
+.footer-items-1 ul .fa-instagram {
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+    /* line-height: 50px; */
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
